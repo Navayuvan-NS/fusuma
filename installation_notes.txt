@@ -1,0 +1,44 @@
+					Fusuma Installation Notes
+
+
+1. Command to be a member of the input group.
+	
+	>>sudo gpasswd -a $USER input
+
+2. Logout and then login to apply the effect of the above command.
+
+
+3. Command to install libinput-tools.
+
+	>>sudo apt-get install libinput-tools
+
+4. Command to install gem.
+
+	>>sudo apt-get install gem
+
+5. Command to install fusuma.
+
+	>>sudo gem install fusuma
+
+6. Command to install xdotool
+
+	>>sudo apt-get install xdotool
+
+
+					Fusuma Configuration Notes
+
+
+1. Create a directory inside ~/.config and name it as fusuma
+
+	i.e.,  ~/.config/fusuma
+
+2. Paste the config.yml file associated in this repository inside the fusuma folder.
+
+3. Change the shortcuts according to the need. 	
+
+
+
+
+
+
+Note:  Must set the custom keyboard shortcuts mentioned in the yml file.
